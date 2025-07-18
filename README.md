@@ -9,11 +9,11 @@ Tools available:
 
 ### Set up
 Configure the following API keys in `.env` file:
-LANGSMITH_API_KEY
-TAVILY_API_KEY
-GOOGLE_ROUTES_API_KEY
-GOOGLE_ELEVATION_API_KEY
-GROQ_API_KEY
+- LANGSMITH_API_KEY
+- TAVILY_API_KEY
+- GOOGLE_ROUTES_API_KEY
+- GOOGLE_ELEVATION_API_KEY
+- GROQ_API_KEY
 
 ## Test run:
 To run the agent run:
