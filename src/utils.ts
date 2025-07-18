@@ -64,7 +64,7 @@ export async function classifyRouteElevation(
         `https://maps.googleapis.com/maps/api/elevation/json` +
         `?path=enc:${encodedPath}` +
         `&samples=${samples}` +
-        `&key=AIzaSyArb1Rb5MAafPQ7Erj_RvN9o5k9jfJQwyQ`
+        `&key=${process.env.GOOGLE_ELEVATION_API_KEY}`
     const elevRes = await fetch(elevUrl)
     const elevData = await elevRes.json()
     if (elevData.status !== 'OK') {
