@@ -1,0 +1,16 @@
+{
+  "date": "10/07/2024",
+  "route": {
+    "source": {
+      "street_line_1": "Cl. 105 # 68A-36",
+      "city": "Bogota",
+      "country_code": "COL"
+    },
+    "destination": {
+      "street_line_1": "Cl. 3 #N° 11A - 56",
+      "city": "Chía",
+      "country_code": "COL"
+    }
+  },
+  "method": "diesel_truck"
+}
